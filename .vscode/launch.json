@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Start Banserver",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/.",
+            "envFile": "${workspaceFolder}/.env",
+            "args": [
+                "--propagate",
+                "--ip-blacklists", "${workspaceFolder}/examples/blacklist_ip.txt",
+                "--chat-blacklists", "${workspaceFolder}/examples/blacklist_chat.txt",
+                "--chat-ban-duration", "1m",
+            ]
+        }
+    ]
+}

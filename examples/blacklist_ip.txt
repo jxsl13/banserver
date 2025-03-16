@@ -1,0 +1,7 @@
+
+# this is a comment
+# ip ranges are supported
+123.123.123.123/32
+
+# and individual ips are also supported
+123.0.0.1
