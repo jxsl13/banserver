@@ -2,7 +2,7 @@
 
 banserver is a distributed Teeworlds & DDNet banserver which connects to your servers via econ and parses log messages, reacts to them and executes econ commands in response to the parsed messages.
 
-This application doe snot have any kind of persistence layer like a database or some kin dof key value store. It solely depends on your configuration files.
+This application does not have any kind of persistence layer like a database or some kind of key value store. It solely depends on your configuration files.
 
 These log messages may contain:
 
